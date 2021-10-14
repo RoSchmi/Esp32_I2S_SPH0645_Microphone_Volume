@@ -19,7 +19,7 @@
   https://github.com/maspetsberger/esp32-i2s-mems
   
   Since I had some problems getting reasonable volume readings with the code of maspetsberger I included some tricks to make the SPH0645 work properly on the ESP32
-  which are explained in the above link
+  which are explained in this link
   
   https://www.esp32.com/viewtopic.php?t=4997
   
