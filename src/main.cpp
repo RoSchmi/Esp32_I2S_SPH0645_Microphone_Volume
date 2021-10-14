@@ -52,12 +52,24 @@ static const i2s_config_t i2s_config = {
      .use_apll = false
 };
 
+// For Adafruit Huzzah Esp32
+
 static const i2s_pin_config_t pin_config = {
     .bck_io_num = 14,                   // BCKL
     .ws_io_num = 15,                    // LRCL
     .data_out_num = I2S_PIN_NO_CHANGE,  // not used (only for speakers)
     .data_in_num = 32                   // DOUT
 };
+
+// For some other Esp32 board
+/* 
+static const i2s_pin_config_t pin_config = {
+    .bck_io_num = 26,                   // BCKL
+    .ws_io_num = 25,                    // LRCL
+    .data_out_num = I2S_PIN_NO_CHANGE,  // not used (only for speakers)
+    .data_in_num = 22                   // DOUT
+};
+*/
 
 void setup() 
 { 
