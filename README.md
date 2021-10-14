@@ -7,6 +7,8 @@
   
   Gets the volume of surrounding noise using Adafruit I2S Microphone (SPH0645)
  
+ ![Gallery](https://github.com/RoSchmi/Esp32_I2S_SPH0645_Microphone_Volume/blob/master/pictures/Esp32_Huzzah_I2S_Microphone.png)
+ 
   This example is based on the code of:
   https://www.esp32.com/viewtopic.php?t=4997
   
