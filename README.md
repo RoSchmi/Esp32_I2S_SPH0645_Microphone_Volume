@@ -1,5 +1,7 @@
 # Esp32_I2S_SPH0645_Microphone_Volume
 
+  Note: There is a repository with a newer version of a sound volume dependant on/off switcher (see below)
+
 
   ESP32 I2S VU Meter Example: 'Esp32_I2S_SPH0645_Microphone_Volume'
   
@@ -27,3 +29,8 @@
   
   https://www.youtube.com/watch?v=3g7l5bm7fZ8
   
+  For the implementation of my sound volume dependant on/off switcher I integrated additional support for the INMP441 microphone and ended with this driver:
+  
+  https://github.com/RoSchmi/Esp32_I2S_Microphone_Vol_Switcher
+  
+  This driver should be used in future applications
